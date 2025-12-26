@@ -1,0 +1,118 @@
+*{
+    padding: 5px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    /* border: 1px solid; */
+    width: 70%;
+    display: flex;
+    height: 90vh;
+    margin: auto;
+    gap: 100px;
+}
+.container_1{
+    /* border: 1px solid; */
+    width: 70%;
+
+}
+.container_2{
+    /* border: 1px solid; */
+width: 50%;
+display: flex;
+flex-direction: column;
+}
+.image_1{
+    width: 100%;
+}
+img{
+    height: 100%;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0px;
+    
+}
+input{
+
+    padding: 10px;
+width: 90%;
+margin: auto;
+}
+.log{
+    text-decoration: none;
+    color: cadetblue;
+}
+button{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    width: 90%;
+margin: auto;
+}
+.icon{
+    width: 35px;
+}
+.first{
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    
+}
+.data{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.third{
+    display: flex;
+    margin: auto;
+    gap: 10px;
+}
+@media screen and (max-width: 767px) {
+    .container{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 0px;   
+
+        
+    }
+    .container_1,.container_2{
+        margin: auto;
+        
+    }
+    .image_1{
+        width: 100%;
+        height: 50vh;
+    }
+    .container_2{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .container_1{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .first{
+        display: flex;
+        /* gap: 0px; */
+    }
+    .four{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        padding: 0px;
+        margin: 0px;
+    } */
+}
+
